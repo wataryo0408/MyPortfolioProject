@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>勝手に給料計算してくれるやーつ</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div id="month">April</div>
+            <div id="days">
+                <!-- <div> -->
+                    <!-- <p id="dayN">1</p> -->
+                    <!-- <p id="dayT">00:00</p> -->
+                    <!-- <p id="dayW">0</p> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                    <!-- <p id="dayN">2</p> -->
+                    <!-- <p id="dayT">00:00</p> -->
+                    <!-- <p id="dayW">0</p> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                    <!-- <p id="dayN">3</p> -->
+                    <!-- <p id="dayT">00:00</p> -->
+                    <!-- <p id="dayW">0</p> -->
+                <!-- </div> -->
+          </div>
+          <div id="cal" class="btn">今月の給料を計算する</div>
+        </main>
+
+        <section id="inputWindow" class="hidden">
+                <p></p>
+                <input type="text" list="listH" size="4"> :
+                <input type="text" list="listM" size="4"> ~
+                <input type="text" list="listH" size="4"> :
+                <input type="text" list="listM" size="4"><br>
+                <datalist id="listH">
+                </datalist>
+                <datalist id="listM">
+                </datalist>
+
+                <div class="btn"id="ok">確定</div>
+                <div class="btn"id="back">戻る</div>
+        </section>
+
+        <section id="result" class="hidden">
+            <p>あなたの給料は</p>
+            <div id="wt"></div>
+        </section>
+     
+        <script src="main.js"></script>
+    </body>
+</html>

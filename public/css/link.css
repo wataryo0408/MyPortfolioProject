@@ -1,0 +1,11 @@
+h2:hover{
+    opacity: 0.6;
+}
+#bboxC{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bboxI{
+    background-color: #eee;
+}

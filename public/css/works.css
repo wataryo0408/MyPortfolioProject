@@ -1,0 +1,39 @@
+.page,.square,.phone{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    border: solid 1px;
+}
+.page img{
+    width: 900px;
+    height: 500px;
+}
+
+.square img{
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+}
+
+.phone img{
+    width: 235px;
+    height: 445px;
+}
+
+.page section{
+    width: 900px;
+}
+
+.square section{
+    width: 450px;
+}
+
+.phone section{
+    width: 300px;
+}
+
+
+section p{
+    margin: 25px;
+}

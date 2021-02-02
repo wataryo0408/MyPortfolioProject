@@ -1,0 +1,19 @@
+section{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.title{
+    font-size: 36px;
+    margin: 10px 30px;
+}
+.date{
+    width: 100px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.blogImg{
+    width: 800px;
+    border: solid;
+    border-width: 1px;
+}

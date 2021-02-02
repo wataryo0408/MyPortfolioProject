@@ -1,0 +1,34 @@
+.profileBox ul{
+    list-style: none;
+}
+
+.profileBox li{
+    width: 1000%;
+    margin: 0px 20px;
+}
+
+section{
+
+}
+.iconsA{
+    width: 900px;
+    margin: 50px auto;
+    display: flex;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.iconsA > div{
+    width: 25%;
+    margin: 0;
+}
+
+.iconsA img{
+    width: 100px;
+    height: 100px;
+}
+
+.iconsA p{
+
+}
+

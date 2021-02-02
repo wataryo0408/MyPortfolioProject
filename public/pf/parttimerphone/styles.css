@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 810px;
+    height: 2800px;
+    /* 700px->2800px */
+    border-radius: 10px;
+    margin: 50px auto 50px;
+    background-color: #87ceeb;
+    position: relative;
+
+}
+
+#month{
+    color: #1d2d33;
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Bradley Hand';
+}
+
+#days{
+    width: 800px;
+    height: 2480px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#days > div{
+    /* width: calc(800px / 7); */
+    width: 800px;
+    height: 80px;
+    margin-bottom: 1px;
+    background-color: #91e0ff;
+}
+
+#days > div:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#days p{
+
+}
+
+p:not(:first-child){
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #00a8eb;
+    text-align: center;    
+    box-shadow: 40px 40px 8px rgba(0, 0, 0, 0.2);
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    transition: 0.4s;
+}
+#inputWindow > p{
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+.hidden{
+    /* transform: translateY(-500px); */
+}
+
+input{
+    margin: 60px 0;
+}
+
+
+.btn{
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+    color: #00a8eb;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.6;
+}
+
+#cal{
+
+}
+
+#wt{
+    font-size: 64px;
+    margin: 60px auto;
+}

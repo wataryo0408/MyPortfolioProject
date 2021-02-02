@@ -1,0 +1,55 @@
+section{
+    margin: 0 auto;
+}
+.toppagebackground{
+    color: #fff;
+    height: 500px;
+    padding: 150px;
+    font-size: 64px;
+    text-align: center;
+    background-image: url('../image/topbackground.png');
+    background-size: cover;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: solid #fff;
+    font-size: 32px;
+    text-align: center;
+
+}
+.btn:hover{
+    color: #000;
+    background-color: #fff;
+    transition: 1s;
+}
+.toppage ul{
+    width: 900px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.toppage li{
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+
+.toppage img{
+    width: 280px;
+    height: 280px;
+    border: solid 1px;
+
+}
+.thumbnail img{
+    margin: 9px;
+}
+
+.thumbnail img:hover{
+    opacity: 0.6;
+}
